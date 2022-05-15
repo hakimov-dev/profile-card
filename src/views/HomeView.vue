@@ -36,7 +36,7 @@
 	
 	<!-- Pin to top right corner -->
 	  <div class="absolute top-0 right-0 h-12 w-18 p-4">
-		<button :id="buttonContent.id" class="js-change-theme focus:outline-none">{{buttonContent.text}}</button>
+		<button @click="changeTheme(buttonContent)" :id="buttonContent.id" class="js-change-theme focus:outline-none">{{buttonContent.text}}</button>
 	  </div>
 
 </div>
