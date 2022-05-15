@@ -69,9 +69,9 @@ export default {
   methods: {
    changeTheme(obj){
      if(obj.id === 'light'){
-       
+       this.buttonContent = {id: 'dark', text: '☀️'}
      }else{
-       
+        this.buttonContent = {id: 'light', text: '🌙'} 
      }
    }
   },
