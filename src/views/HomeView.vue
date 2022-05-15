@@ -73,6 +73,7 @@ export default {
      }else{
         this.buttonContent = {id: 'light', text: '🌙'} 
      }
+     console.log(this.buttonContent)
    }
   },
 };
