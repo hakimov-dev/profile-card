@@ -53,7 +53,9 @@ export default {
   },
 
   methods: {
-   
+   changeTheme(){
+     
+   }
   },
 };
 </script>
