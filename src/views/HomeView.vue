@@ -49,7 +49,13 @@ export default {
   name: "HomeView",
 
   created () {
-    
+    if(localStorage.theme === undefined){
+      localStorage.setItem('theme', 'light')
+    }else if(localStorage.theme === 'light'){
+      document.documentElement.classList.remove('dark')
+    }else if(localStorage.theme === 'dark'){
+      document.documentElement.classList.add('dark')
+    }
   },
 
   methods: {
