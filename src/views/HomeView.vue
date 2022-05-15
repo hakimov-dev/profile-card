@@ -47,6 +47,12 @@
 <script>
 export default {
   name: "HomeView",
+ 
+  data() {
+    return {
+      
+    }
+  },
 
   created () {
     if(localStorage.theme === undefined){
