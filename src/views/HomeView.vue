@@ -58,10 +58,10 @@ export default {
     if(localStorage.theme === undefined){
       localStorage.setItem('theme', 'light')
     }else if(localStorage.theme === 'light'){
-      document.documentElement.classList.remove('dark')
+      document.documentElement.classList.add('dark')
       this.buttonContent = {id: 'dark', text: '☀️'}
     }else if(localStorage.theme === 'dark'){
-      document.documentElement.classList.add('dark')
+      document.documentElement.classList.remove('dark')
       this.buttonContent = {id: 'light', text: '🌙'}
     }
   },
