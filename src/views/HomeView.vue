@@ -67,7 +67,7 @@ export default {
   },
 
   methods: {
-   changeTheme(){
+   changeTheme(obj){
      
    }
   },
