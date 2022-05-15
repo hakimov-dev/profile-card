@@ -1,4 +1,4 @@
-# new-profile-card
+# Profile Card
 
 ## Project setup
 ```
