@@ -68,7 +68,11 @@ export default {
 
   methods: {
    changeTheme(obj){
-     
+     if(obj.id === 'light'){
+       
+     }else{
+       
+     }
    }
   },
 };
