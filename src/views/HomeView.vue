@@ -35,8 +35,8 @@
 	  <div class="absolute lg:top-1 lg:right-6 top-2 right-4 h-12 w-18 p-4">
 	<input @change="changeTheme" v-model="inputValue" type="checkbox" class="checkbox" id="chk" />
 	 <label class="label transition dark:bg-gray-900 bg-gray-100" for="chk">
-		 <svg class="h-8 w-8 fa-sun"  width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">  <path stroke="none" d="M0 0h24v24H0z"/>  <circle cx="12" cy="12" r="4" />  <path d="M3 12h1M12 3v1M20 12h1M12 20v1M5.6 5.6l.7 .7M18.4 5.6l-.7 .7M17.7 17.7l.7 .7M6.3 17.7l-.7 .7" /></svg>
-		 <svg class="w-8 h-8 fa-moon" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M17.293 13.293A8 8 0 016.707 2.707a8.001 8.001 0 1010.586 10.586z"></path></svg>
+		 <svg class="h-[23px] w-[22px] fa-sun"  width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">  <path stroke="none" d="M0 0h24v24H0z"/>  <circle cx="12" cy="12" r="4" />  <path d="M3 12h1M12 3v1M20 12h1M12 20v1M5.6 5.6l.7 .7M18.4 5.6l-.7 .7M17.7 17.7l.7 .7M6.3 17.7l-.7 .7" /></svg>
+		 <svg class="w-[22x] h-[23px] fa-moon" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M17.293 13.293A8 8 0 016.707 2.707a8.001 8.001 0 1010.586 10.586z"></path></svg>
     <div class="ball"></div>
 	  </label>
 	  </div>
@@ -100,8 +100,8 @@ export default {
 	justify-content: space-between;
 	padding: 5px;
 	position: relative;
-	height: 26px;
-	width: 50px;
+	height: 22px;
+	width: 48px;
 	transform: scale(1.5);
 }
 
@@ -109,16 +109,16 @@ export default {
 	background-color: #fff;
 	border-radius: 50%;
 	position: absolute;
-	top: 3px;
-	left: 3px;
-	height: 20px;
-	width: 20px;
+	top: 2px;
+	left: 4px;
+	height: 18px;
+	width: 19px;
 	transform: translateX(0px);
 	transition: transform 0.2s linear;
 }
 
 .checkbox:checked + .label .ball {
-	transform: translateX(24px);
+	transform: translateX(23px);
 }
 
 
