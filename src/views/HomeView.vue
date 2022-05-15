@@ -47,5 +47,8 @@
 <script>
 export default {
   name: "HomeView"
+  created () {
+    
+  },
 };
 </script>
