@@ -1,5 +1,18 @@
 # Profile Card
 
+![Screenshot_1](https://user-images.githubusercontent.com/83240328/187281055-575f76cc-7fca-4e4b-a3e5-6e2dfde64b0f.png)
+
+<p align="center">
+<img src="https://img.shields.io/badge/Build-automated-blue" />
+<img src="https://img.shields.io/github/languages/code-size/hakimov-dev/profile-card" />
+<img src="https://img.shields.io/bitbucket/issues/hakimov-dev/profile-card">
+<img src="https://img.shields.io/github/last-commit/hakimov-dev/profile-card">
+<img src="https://img.shields.io/github/package-json/v/hakimov-dev/profile-card">
+<img src="https://img.shields.io/website?url=https%3A%2F%2Fhakimov.netlify.app%2F">
+<img src="https://img.shields.io/github/stars/hakimov-dev/profile-card?style=flat&logo=github">
+<img src="https://img.shields.io/github/watchers/hakimov-dev/profile-card?style=social">
+</p>
+
 ## Build Setup
 
 ```bash
