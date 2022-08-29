@@ -1,8 +1,0 @@
-@import url(./tailwind.css);
-
-.main-bg{
-  background-image: url(../images/bg.jpg) !important;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center center;
-}
